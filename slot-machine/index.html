@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neon Slots Velocity | SpinCraft</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../../favi.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script>
+  var slotMachineConfig = {}
+  </script>
+  <script src="assets/js/main.js"></script>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: #0f172a;
+    }
+    #slot-machine {
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+    .game-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.6rem 1rem;
+      background: #0f172a;
+      border-bottom: 1px solid rgba(6, 182, 212, 0.35);
+      font-family: 'DM Sans', -apple-system, sans-serif;
+      font-size: 0.9rem;
+    }
+    .game-toolbar a {
+      color: #06b6d4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .game-toolbar a:hover {
+      color: #22d3ee;
+    }
+    .game-toolbar-logo {
+      height: 22px;
+      width: auto;
+      vertical-align: middle;
+      margin-right: 6px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-toolbar" style="justify-content:space-between;">
+  <span style="color:#94a3b8;font-weight:600;"><img src="../../assets/logo.webp" alt="SpinCraft" class="game-toolbar-logo">SpinCraft · Neon Slots Velocity</span>
+  <a href="../../index.html">← Back to SpinCraft</a>
+  </div>
+  <div id="slot-machine"></div>
+</body>
+</html>
